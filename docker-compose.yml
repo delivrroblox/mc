@@ -12,6 +12,8 @@ services:
       ICON: https://cdn.delivrroblox.net/raw/dqitUh.png
       ENABLE_AUTOSTOP: "TRUE"
       AUTOSTOP_TIMEOUT_EST: "3600"
+      ENABLE_WHITELIST: true
+      WHITELIST: Bread_dd
     restart: "no"
     ports:
       - "25565:25565"
