@@ -5,6 +5,11 @@ services:
       EULA: "true"
       MEMORY: 3G
       TYPE: PAPER
+      PLUGINS: |
+        https://cdn.modrinth.com/data/UmLGoGij/versions/ATlquwiT/DiscordSRV-Build-1.30.5.jar
+        https://cdn.modrinth.com/data/hXiIvTyT/versions/nY6VN1XH/EssentialsX-2.22.0.jar
+      VERSION: 1.21.11
+      ICON: https://cdn.delivrroblox.net/raw/dqitUh.png
     ports:
       - "25565:25565"
     volumes:
@@ -12,5 +17,6 @@ services:
     stdin_open: true
     tty: true
     restart: unless-stopped
+    
 volumes:
   data: {}
