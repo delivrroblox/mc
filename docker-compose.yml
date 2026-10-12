@@ -3,6 +3,8 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
+      MEMORY: 3G
+      TYPE: PAPER
     ports:
       - "25565:25565"
     volumes:
