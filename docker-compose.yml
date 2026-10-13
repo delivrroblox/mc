@@ -8,6 +8,7 @@ services:
       PLUGINS: |
         https://cdn.modrinth.com/data/UmLGoGij/versions/ATlquwiT/DiscordSRV-Build-1.30.5.jar
         https://cdn.modrinth.com/data/hXiIvTyT/versions/nY6VN1XH/EssentialsX-2.22.0.jar
+        https://cdn.modrinth.com/data/Vebnzrzj/versions/b0mk8uS6/LuckPerms-Bukkit-5.5.71.jar
       VERSION: 1.21.11
       ICON: https://cdn.delivrroblox.net/raw/dqitUh.png
       ENABLE_AUTOSTOP: "TRUE"
